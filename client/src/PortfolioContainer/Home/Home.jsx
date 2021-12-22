@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="home-container">
       <Header />
-      <Profile />
+      <Profile className="profile" />
       <Footer />
     </div>
   )

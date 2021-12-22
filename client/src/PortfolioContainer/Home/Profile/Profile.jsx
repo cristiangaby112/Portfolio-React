@@ -1,6 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
-import "./Profile.css"
+import "./Profile.css";
+import ScrollService from '../../../utilities/ScrollService'
 
 export default function Profile() {
   return (
@@ -26,7 +27,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text">Cristian</span>
+              Hola, Yo Soy <span className="highlighted-text">Cristian</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -41,7 +42,7 @@ export default function Profile() {
                     1000,
                     "React/Redux Developer",
                     1000,
-                    "React/React-native Developer",
+                    "React-native Developer",
                     1000,
                   ]}
                 />
@@ -53,7 +54,9 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
+            <button className="btn primary-btn"
+            onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+            >
               {""}
               Contratame{" "}
             </button>
@@ -61,7 +64,7 @@ export default function Profile() {
               href="Currículum.pdf"
               download="cristian_barriento Currículum.pdf"
             >
-              <button className="btn highlighted-btn">Resumen</button>
+              <button className="btn highlighted-btn">Curriculum</button>
             </a>
           </div>
         </div>

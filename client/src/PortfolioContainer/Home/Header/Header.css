@@ -50,13 +50,10 @@
 @media only screen and (max-width: 970px) {
   .header-hamburger{
       display: block;
-      
   }
   .header-parent {
-      align-items: center;
       width: 100%;
       padding: 0 40px;
-
       position: relative;
   }
   .header-options {
@@ -92,8 +89,5 @@
   .show-hamburger-options {
       left: 0;
       opacity: 1;
-  }
-  .text-logo{
-    text-align: center;
   }
 }
