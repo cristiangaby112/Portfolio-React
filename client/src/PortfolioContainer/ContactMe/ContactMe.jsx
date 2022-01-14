@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState } from "react";
 import Typical from "react-typical";
 import axios from "axios";
@@ -15,6 +16,7 @@ export default function ContactMe(props) {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
+  // eslint-disable-next-line no-unused-vars
   const fadeInSubcription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 

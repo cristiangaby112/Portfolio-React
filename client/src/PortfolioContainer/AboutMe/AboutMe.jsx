@@ -9,6 +9,7 @@ export default function AboutMe(props) {
     if (screen.fadeInScreen !== props.id) return;
     Animations.animations.fadeInScreen(props.id);
   };
+  // eslint-disable-next-line no-unused-vars
   const fadeInSubcription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
