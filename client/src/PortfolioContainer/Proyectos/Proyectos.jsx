@@ -81,12 +81,12 @@ export default function Proyectos(props) {
             >
               <BsGithub /> Codigo
             </a>
-            <a
+            {/* <a
               className="fifth-web"
               href="https://pi-countries-main.vercel.app/"
             >
               Web
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

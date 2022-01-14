@@ -4,7 +4,7 @@ import ScrollService from '../../utilities/ScrollService';
 import Animations from '../../utilities/Animations';
 import './Resume.css';
 
-export default function Resume(props) {
+export default function Resumen(props) {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
   const [carousalOffsetStyle, setCarousalOffsetStyle] = useState({});
 
@@ -274,7 +274,7 @@ export default function Resume(props) {
   return (
     <div className="resume-container screen-container fade-in" id={props.id || ""}>
       <div className="resume-content">
-        <ScreenHeading title={'Resume'} subHeading= {'My Formal Bio Details'} />
+        <ScreenHeading title={'Resumen'} subHeading= {'Detalles de mi biografía formal'} />
         <div className="resume-card">
           <div className="resume-bullets">
             <div className="bullet-container">
