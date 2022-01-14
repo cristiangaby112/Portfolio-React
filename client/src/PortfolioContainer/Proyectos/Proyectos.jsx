@@ -77,7 +77,7 @@ export default function Proyectos(props) {
           <div className="container-icons">
             <a
               className="fifth"
-              href="https://github.com/cristiangaby112/PI-Countries-main"
+              href="https://github.com/cristiangaby112/EventIn"
             >
               <BsGithub /> Codigo
             </a>
