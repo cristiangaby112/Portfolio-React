@@ -129,7 +129,7 @@
   height:315px
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .container-flex{
     flex-direction: column;
     align-items: center;
@@ -145,7 +145,7 @@
   }
 }
 
-@media only screen and (min-width: 700px) {
+/* @media only screen and (min-width: 700px) {
   .container-flex{
     flex-direction: column;
     align-items: center;
@@ -159,4 +159,4 @@
   .video{
     width:500px;
   }
-}
+} */
