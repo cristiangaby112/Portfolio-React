@@ -106,7 +106,7 @@ export default function ContactMe(props) {
             <textarea type="text" onChange={handleMessage} value={message} />
             <div className="send-btn">
               <button type="submit">
-                send
+                Enviar
                 <i className="fa fa-paper-plane" />
                 {bool ? (
                   <b className="load">
