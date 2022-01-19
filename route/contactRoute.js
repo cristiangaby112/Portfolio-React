@@ -1,5 +1,7 @@
 const router = require("express").Router();
 const nodemailer = require("nodemailer");
+require("dotenv").config();
+
 
 router.post("/contact", (req, res) => {
   let data = req.body;
@@ -15,8 +17,8 @@ router.post("/contact", (req, res) => {
     service: "Gmail",
     port: 465,
     auth: {
-      user: "cristianbarriento323@gmail.com",
-      pass: "1500234cristian",
+      user: process.env.EMAIL,
+      pass: process.env.PASSWORD,
     },
   });
   let mailOptions = {

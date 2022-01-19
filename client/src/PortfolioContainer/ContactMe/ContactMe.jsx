@@ -9,7 +9,7 @@ import load1 from "../../../src/images/load2.gif";
 import ScrollService from "../../utilities/ScrollService";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import Animations from "../../utilities/Animations";
-import "../ContactMe/ContactMe.css"
+import "./ContactMe.css"
 
 export default function ContactMe(props) {
   let fadeInScreenHandler = (screen) => {
@@ -35,7 +35,7 @@ export default function ContactMe(props) {
   const handleMessage = (e) => {
     setMessage(e.target.value);
   };
-  console.log(name);
+  // console.log(name);
   const submitForm = async (e) => {
     e.preventDefault();
     try {
@@ -74,7 +74,7 @@ export default function ContactMe(props) {
       <div className="central-form">
         <div className="col">
           <h2 className="title">
-            <Typical loop={Infinity} steps={["Ponerse en contacto 📨", 1000]} />
+            <Typical loop={Infinity} steps={["Ponerse en contacto 📨", 1000]} className="title_contacto" />
           </h2>
           <a href="https://www.linkedin.com/in/barriento-cristian/">
             <i className="fa fa-linkedin"></i>

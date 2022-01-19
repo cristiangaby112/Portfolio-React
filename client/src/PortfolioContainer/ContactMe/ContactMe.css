@@ -146,4 +146,12 @@ button .load img{
   form {
     flex: 0.9;
   }
+  /* .col i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .central-form {
+    text-align: center;
+  }
 }

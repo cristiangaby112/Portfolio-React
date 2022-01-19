@@ -17,6 +17,9 @@
   font-family: "Poppins ExtraBold";
   color: var(--white);
 }
+/* .texto-nombre{
+  text-align: center;
+} */
 .header-options{
   display: flex;
   align-items: center;
@@ -44,6 +47,10 @@
 @media only screen and (max-width: 1110px) {
   .header-parent{
       width: 80%;
+  }
+  .header-logo span{
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -89,5 +96,8 @@
   .show-hamburger-options {
       left: 0;
       opacity: 1;
+  }
+  .header-logo span {
+    text-align: center;
   }
 }
