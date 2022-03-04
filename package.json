@@ -2,10 +2,6 @@
   "name": "portfolio-app",
   "version": "1.0.0",
   "main": "index.js",
-  "engines": {
-    "node": "16.13.1",
-    "npm": "8.1.2"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
