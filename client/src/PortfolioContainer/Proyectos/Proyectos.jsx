@@ -21,7 +21,6 @@ export default function Proyectos(props) {
           <div className="container-video">
             <iframe
               className="video"
-              
               src="https://www.youtube.com/embed/Bpkp3N2XEVU"
               title="YouTube video player"
               frameborder="0"
@@ -87,6 +86,39 @@ export default function Proyectos(props) {
             >
               Web
             </a> */}
+          </div>
+        </div>
+        <div className="container-data">
+          <div className="container-video">
+            <iframe
+              className="video"
+              src="https://www.youtube.com/embed/DApvqOVXzkA"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div className="texto-container">
+            <p className="texto">
+              Desarrollo de un clon de Netflix utilizando React JS, Redux, CSS
+              Module para la maquetacion, la obtencion de datos atraves de una
+              API externa.
+            </p>
+          </div>
+          <div className="container-icons">
+            <a
+              className="fifth"
+              href="https://github.com/cristiangaby112/Chanllenge_MoviesNexflix"
+            >
+              <BsGithub /> Codigo
+            </a>
+            <a
+              className="fifth-web"
+              href="https://nettflix-movies-app.herokuapp.com/"
+            >
+              Web
+            </a>
           </div>
         </div>
       </div>
